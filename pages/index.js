@@ -1,6 +1,10 @@
 import Head from "next/head";
-import Image from "next/image";
+import Header from "../components/Header";
 
 export default function Home() {
-  return <div className="text-3xl font-bold underline">hi!</div>;
+  return (
+    <div className="">
+      <Header />
+    </div>
+  );
 }

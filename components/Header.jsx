@@ -36,6 +36,20 @@ const Header = () => {
           placeholder="Search items, collections, and accounts"
         />
       </div>
+      <div className={style.headerItems}>
+        <Link href="/collections/0xE909E71EC1dA3db8e46d2217AEbA6ffaFc9ac5C8">
+          <div className={style.headerItem}>Collections</div>
+        </Link>
+        <div className={style.headerItem}>Stats</div>
+        <div className={style.headerItem}>Resources</div>
+        <div className={style.headerItem}>Create</div>
+        <div className={style.headerIcon}>
+          <CgProfile />
+        </div>
+        <div className={style.headerIcon}>
+          <MdOutlineAccountBalanceWallet />
+        </div>
+      </div>
     </div>
   );
 };

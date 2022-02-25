@@ -8,6 +8,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - metamask.io
 - thirdweb.com
 - https://faucets.chain.link/rinkeby
+  = alchemyapi.io
 
 First, run the development server:
 

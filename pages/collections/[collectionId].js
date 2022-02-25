@@ -87,7 +87,6 @@ const Collection = () => {
 }`;
 
     const collectionData = await sanityClient.fetch(query);
-    console.log("collectionData", collectionData);
     await setCollection(collectionData[0]);
   };
   useEffect(() => {
